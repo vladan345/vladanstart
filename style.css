@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("Bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.text {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+h1, h2 {
+    color: #fff;
+    font-weight: 300;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    font-size: 150px;
+    text-align: center;
+}
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 80px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+  }
