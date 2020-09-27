@@ -11,7 +11,7 @@ function showTime(){
 var message = "Good evening";
 
 if (h >= 12 && h <= 13) {
-    message = "Have a nice launch";
+    message = "Have a nice lounch";
 }
 if (h >= 14 && h <= 19) {
     message = "Good afternoon";
